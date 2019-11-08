@@ -1,0 +1,7 @@
+# WebStorm files
+.idea/
+# npm
+node_modules/
+# various
+.DS_Store
+/*.env

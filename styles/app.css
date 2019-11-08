@@ -1,0 +1,55 @@
+* {
+    font-family: 'Takeaway Sans', 'Arial';
+    font-family: 'Takeaway Sans Regular', 'Arial';
+    font-size: 4rem;
+}
+
+body {
+    background-color: powderblue;
+    padding: 2rem;
+    margin: 2rem;
+    width: 70rem;
+    height: 40rem;
+    outline: 2px dotted green;
+}
+
+@font-face {
+    font-family: 'Takeaway Sans Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/takeaway-sans-regular.eot'); /* IE9 Compat Modes */
+    src: local('Takeaway Sans Regular'),
+    url('../fonts/takeaway-sans-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/takeaway-sans-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/takeaway-sans-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/takeaway-sans-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+.title {
+    margin-bottom: 2rem;
+    outline: 2px dotted red;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    outline: 2px dotted red;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    transform: scale(2);
+    margin: 1rem;
+}
+
+.detector {
+    flex-grow: 1;
+}
+
+.detector > div {
+    font-size: 1rem;
+}
