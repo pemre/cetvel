@@ -1,18 +1,3 @@
-* {
-    font-family: 'Takeaway Sans', 'Arial';
-    font-family: 'Takeaway Sans Regular', 'Arial';
-    font-size: 4rem;
-}
-
-body {
-    background-color: powderblue;
-    padding: 2rem;
-    margin: 2rem;
-    width: 70rem;
-    height: 40rem;
-    outline: 2px dotted green;
-}
-
 @font-face {
     font-family: 'Takeaway Sans Regular';
     font-style: normal;
@@ -25,31 +10,50 @@ body {
     url('../fonts/takeaway-sans-regular.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
-.title {
-    margin-bottom: 2rem;
-    outline: 2px dotted red;
+html {
+    /* This defines what 1rem is */
+    font-size: 62.5%; /* 1 rem = 10px; 10px/16px = 62.5% */
 }
 
-.option {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-    outline: 2px dotted red;
+* {
+    font-family: 'Takeaway Sans Regular', 'Arial', sans-serif;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+body {
+    background-color: #ddd;
+    height: 50rem;
+    margin: 2rem;
+    outline: 2px solid green;
+    padding: 2rem;
+    width: 100rem;
 }
 
 .row {
     display: flex;
+    align-items: center;
 }
 
-.box {
-    transform: scale(2);
-    margin: 1rem;
+.row:not(:last-child) {
+    margin-bottom: 1.5rem;
 }
 
-.detector {
+.title {
+    height: 5rem;
+    outline: 1px dashed red;
+}
+
+.input-text {
     flex-grow: 1;
+    margin-right: 1rem;
+}
+
+.input-text,
+.btn-submit {
+    height: 5rem;
 }
 
 .detector > div {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }

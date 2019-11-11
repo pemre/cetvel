@@ -1,5 +1,6 @@
 /**
  * Device, browser and version detector
+ * @note We customized it a bit
  * @see https://medium.com/creative-technology-concepts-code/detect-device-browser-and-version-using-javascript-8b511906745
  */
 (function () {
@@ -40,7 +41,6 @@
     matchItem: function (string, data) {
       var i = 0,
         j = 0,
-        html = '',
         regex,
         regexv,
         match,
@@ -84,11 +84,6 @@
   debug.push('os.version = ' + e.os.version);
   debug.push('browser.name = ' + e.browser.name);
   debug.push('browser.version = ' + e.browser.version);
-
-  debug.push('navigator.userAgent = ' + navigator.userAgent);
-  debug.push('navigator.appVersion = ' + navigator.appVersion);
-  debug.push('navigator.platform = ' + navigator.platform);
-  debug.push('navigator.vendor = ' + navigator.vendor);
 
   document.querySelector('.detector').innerHTML = '<div>' + debug.join('</div><div>') + '</div>';
 }());
