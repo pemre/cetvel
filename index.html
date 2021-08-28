@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>📏 Cetvel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="styles/reset.css" type="text/css">
+    <link rel="stylesheet" href="styles/app.css" type="text/css">
+</head>
+<body>
+    <div class="row">
+        <img src="./cetvel.svg" width="64" height="64" alt="Logo of Cetvel"/>
+    </div>
+
+    <div class="row">
+        <b>Cetvel</b> — A minimalistic font comparison app to compare uploaded files against web safe and fallback fonts.
+    </div>
+
+    <div class="row github-buttons">
+        <a class="eee github-button" href="https://github.com/pemre" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @pemre on GitHub">Follow @pemre</a>
+        <a class="github-button" href="https://github.com/pemre/cetvel" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star pemre/cetvel on GitHub">Star</a>
+        <a class="github-button" href="https://github.com/pemre/cetvel/fork" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Fork pemre/cetvel on GitHub">Fork</a>
+    </div>
+
+    <div class="row title" style="font-family: sans-serif">
+        <input
+            autofocus
+            class="example-text"
+            id="textElement"
+            onfocus="this.selectionStart = this.selectionEnd = this.value.length;"
+            type="text"
+            value="The quick brown fox jumps over the lazy dog"
+        />
+    </div>
+
+    <div class="row title">
+        <span class="text" style="font-family: Arial, serif">The quick brown fox jumps over the lazy dog</span>
+        <div class="font-name">Arial</div>
+    </div>
+    <div class="row title">
+        <span class="text" style="font-family: 'Times New Roman', serif">The quick brown fox jumps over the lazy dog</span>
+        <div class="font-name">Times New Roman</div>
+    </div>
+    <div class="row title">
+        <span class="text" style="font-family: sans-serif">The quick brown fox jumps over the lazy dog</span>
+        <div class="font-name">sans-serif</div>
+    </div>
+    <div class="row title">
+        <span class="text" style="font-family: serif">The quick brown fox jumps over the lazy dog</span>
+        <div class="font-name">serif</div>
+    </div>
+    <div class="row title">
+        <span class="text" style="font-family: monospace">The quick brown fox jumps over the lazy dog</span>
+        <div class="font-name">monospace</div>
+    </div>
+    <div class="row title">
+        <span class="text" style="font-family: cursive">The quick brown fox jumps over the lazy dog</span>
+        <div class="font-name">cursive</div>
+    </div>
+
+    <div id="fonts-container"></div>
+
+    <div class="row">
+        <form>
+            Select a font file to compare <input accept=".eot,.otf,.ttf,.woff,.woff2" type="file" id="fileElement" />
+        </form>
+    </div>
+
+    <br />
+    <hr />
+
+    <div class="row">
+        <div class="detector"></div>
+        <div>
+            <a
+                href="https://www.buymeacoffee.com/pemre"
+                target="_blank"
+                style="display: inline-block; width: 25.5rem; margin-left: 2rem"
+            >
+                <img
+                    src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=pemre&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff"
+                    alt="Buy me a coffee button"
+                ></a>
+        </div>
+        If you liked it, you can buy me a coffee to support ☕ 🤗
+    </div>
+
+    <script
+        data-name="BMC-Widget"
+        data-cfasync="false"
+        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="pemre"
+        data-description="Support me on Buy me a coffee!"
+        data-message="If you liked it, you can buy me a coffee to support ☕."
+        data-color="#FFDD00"
+        data-position="Right"
+        data-x_margin="48"
+        data-y_margin="48"
+    >
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script type="text/javascript" src="js/detector.js"></script>
+    <script type="text/javascript" src="js/handle-text-change.js"></script>
+    <script type="text/javascript" src="js/preview-font.js"></script>
+</body>
+</html>

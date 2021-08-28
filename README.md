@@ -1,11 +1,29 @@
-<div align="center">
-<img src="assets/img/logo.png" alt="Font Test logo" width="128" />
+![](https://img.shields.io/badge/awesome%3F-yes-green.svg)
+![](https://img.shields.io/github/license/pemre/cetvel)
 
-## Font Test
-[![](https://git.takeaway.com/frontend/font-test/badges/master/build.svg)](https://git.takeaway.com/frontend/font-test/pipelines)
-[![](https://img.shields.io/badge/demo-gitlab%20pages-brightgreen)](https://frontend.gitpages.takeaway.com/font-test/)
-</div>
+# Cetvel
 
-After we had issues with the Takeaway Sans font family, we created this test repo.
+<img src="./cetvel.svg" width="100%" height="150" alt="Logo of Cetvel"/>
 
-Test page url: https://frontend.gitpages.takeaway.com/font-test
+Cetvel is a minimalistic font comparison app to compare uploaded files against web safe and fallback fonts ("sans-serif", "serif", "monospace", "cursive").
+
+<img src="./cetvel.gif" height="400" alt="Demo of Cetvel"/>
+
+## Meaning
+
+Cetvel (/d͡ʒetvel/) means "ruler" in Turkish. As in ruler (/ruːləʳ/), a long flat piece of wood, metal, or plastic with
+straight edges marked in centimetres (or other units). Rulers are used to measure things and to draw straight lines.
+
+## History
+
+It has been developed with the help of [@Potherca](https://github.com/Potherca), while working at Just Eat Takeaway.
+We wanted to demonstrate baseline differences of a few fonts. The original version was static without uploading feature.
+I fine tuned the original and Cetvel was born.
+
+## Demo
+
+Check out https://pemre.github.io/cetvel/
+
+## Support Me
+
+<a target="_blank" href="https://www.buymeacoffee.com/pemre"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=pemre&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff"></a>
