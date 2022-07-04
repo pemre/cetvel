@@ -26,4 +26,4 @@ Check out https://pemre.github.io/cetvel/
 
 ## Support Me
 
-<a target="_blank" href="https://www.buymeacoffee.com/pemre"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=pemre&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff"></a>
+<a target="_blank" href="https://www.buymeacoffee.com/pemre"><img width="200" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"></a>
